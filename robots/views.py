@@ -5,8 +5,6 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from django.views import View
 
-
-from .validators import validate_robot_data
 from .models import Robot
 
 
